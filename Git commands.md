@@ -1,61 +1,61 @@
-## #Start a new repository
+## Start a new repository
 git init
 
-## #Copy/Clone an existing repository into your directory
+## Copy/Clone an existing repository into your directory
 git clone <repo url>
 
-## #Add untracked file or unstaged changes
+## Add untracked file or unstaged changes
 git add <file>
 
-## #Add all untracked file or unstaged changes
+## Add all untracked file or unstaged changes
 git add .
 
-## #Choose which parts of a file to stage
+## Choose which parts of a file to stage
 git add -p
 
-## #Move file
+## Move file
 git mv <old> <new>
 
-## #Delete file
+## Delete file
 git rm <file>
 
-## #Forget file
+## Forget file
 git rm --cached <file>
 
-## #Unstage one file
+## Unstage one file
 git reset <file>
 
-## #Unstage everything
+## Unstage everything
 git reset
 
-## #Check added
+## Check added
 git status
 
-## #Make a commit (write message on text editor if not specified)
+## Make a commit (write message on text editor if not specified)
 git commit -m 'message'
 
-## #Commit all unstaged changes
+## Commit all unstaged changes
 git commit -am 'message'
 
-## #Create a new branch
+## Create a new branch
 git switch -c <name> or git checkout -b <name>
 
-## #Switch branch
+## Switch branch
 git switch <name> or git checkout <name>
 
-## #List branches
+## List branches
 git branch
 
-## #List branches by most recently committed to
+## List branches by most recently committed to
 git branch --sort=-committerdate
 
-## #Delete a branch (Capital 'd' to force delete)
+## Delete a branch (Capital 'd' to force delete)
 git branch -d <name>
 
-## #Show diff between a commit and its parent
+## Show diff between a commit and its parent
 git show <commit>
 
-## #Show diff between two commits
+## Show diff between two commits
 git diff <commit> <commit>
 
 More found on: https://git-scm.com/cheat-sheet

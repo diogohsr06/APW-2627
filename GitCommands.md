@@ -58,5 +58,5 @@ git show <commit>
 ## Show diff between two commits
 git diff <commit> <commit>
 
-##More found on: https://git-scm.com/cheat-sheet
+## More found on: https://git-scm.com/cheat-sheet
 

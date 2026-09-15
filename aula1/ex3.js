@@ -8,3 +8,5 @@ function showProps(obj)
 }
 
 console.log(std)
+
+

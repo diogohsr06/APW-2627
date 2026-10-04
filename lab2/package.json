@@ -1,0 +1,15 @@
+{
+  "name": "lab2",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "ex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "mocha": "^12.0.3"
+  }
+}
